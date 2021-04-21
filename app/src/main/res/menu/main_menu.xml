@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home_icon"
+            />
+
+        <item android:id="@+id/nav_search"
+            android:title="Search"
+            android:icon="@drawable/search_icon"
+            />
+
+        <item android:id="@+id/nav_all_categories_new"
+            android:title="All Categories New"
+            android:icon="@drawable/ic_categories_icon"
+            />
+
+        <item android:id="@+id/nav_all_categories_reused"
+            android:title="All Categories Reused"
+            android:icon="@drawable/category_icon"
+            />
+
+        <item android:id="@+id/nav_add_product"
+            android:title="Add Product"
+            android:icon="@drawable/add_item_icon"
+            />
+
+
+    </group>
+
+    <item android:title="Profile">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/nav_login"
+                    android:title="Login"
+                    android:icon="@drawable/ic_login_icon"
+                    />
+
+                <item android:id="@+id/nav_profile"
+                    android:title="Profile"
+                    android:icon="@drawable/ic_profile_icon"
+                    />
+
+                <item android:id="@+id/nav_logout"
+                    android:title="Logout"
+                    android:icon="@drawable/ic_logout_icon"
+                    />
+
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="Categories">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/nav_books"
+                    android:title="Books"
+                    android:icon="@drawable/ic_book_icon"
+                    />
+
+                <item android:id="@+id/nav_stationary"
+                    android:title="Stationary"
+                    android:icon="@drawable/ic_stationary_icon"
+                    />
+
+                <item android:id="@+id/nav_Electronics_gadgets"
+                    android:title="Electronic Gadgets"
+                    android:icon="@drawable/ic_electronics_gadgets_icon"
+                    />
+
+                <item android:id="@+id/nav_others"
+                    android:title="Others"
+                    android:icon="@drawable/general_icon"
+                    />
+
+                <item android:id="@+id/nav_books_used"
+                    android:title="Reused Books"
+                    android:icon="@drawable/ic_book_old_icon"
+                    />
+
+                <item android:id="@+id/nav_stationary_reused"
+                    android:title="Reused Stationary"
+                    android:icon="@drawable/ic_stationary_old_icon"
+                    />
+
+                <item android:id="@+id/nav_Electronics_gadgets_reused"
+                    android:title="Reused Electronic Gadgets"
+                    android:icon="@drawable/ic_electronics_gadgets_old_icon"
+                    />
+
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="Share">
+
+        <menu>
+
+            <group android:checkableBehavior="none">
+                <item android:id="@+id/nav_share"
+                    android:title="Share"
+                    android:icon="@drawable/share_icon"
+                    />
+
+                <item android:id="@+id/nav_rate_us"
+                    android:title="Rate Us"
+                    android:icon="@drawable/ic_rating_icon"
+                    />
+
+            </group>
+
+        </menu>
+    </item>
+
+</menu>

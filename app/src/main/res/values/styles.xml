@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="navigationTheme">
+
+            <!-- Color of text and icon when SELECTED   -->
+            <item name="colorPrimary"  parent="Theme.MaterialComponents.DayNight.NoActionBar">@color/colorPrimary
+            </item>
+            <item name="colorControlHighlight"  parent="Theme.MaterialComponents.DayNight.NoActionBar">@color/colorAccent</item>
+
+    </style>
+</resources>
